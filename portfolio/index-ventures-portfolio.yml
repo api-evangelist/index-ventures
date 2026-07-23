@@ -3,10 +3,10 @@ method: searched
 source: https://www.indexventures.com/companies/
 summary:
   portfolio_total: 318
-  in_network: 138
-  api_providers: 71
-  missing: 180
-  stubs_created: 20
+  in_network: 318
+  api_providers: 98
+  missing: 0
+  stubs_created: 0
 companies:
 - name: /dev/agents
   url: http://sdsa.ai
@@ -16,8 +16,8 @@ companies:
   in_network: true
   is_api_provider: false
   stub_created: true
-  slug: dev-agents
-  matched_by: name-slug
+  slug: sdsa
+  matched_by: domain
 - name: 1stdibs
   url: http://1stdibs.com
   description: 1stdibs is the leading marketplace for luxury antiques and vintage goods. Originally inspired
@@ -31,7 +31,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: 1stdibs
-  matched_by: name-slug
+  matched_by: domain
 - name: Abacus.ai
   url: https://abacus.ai/
   description: Effortlessly Embed Cutting-Edge AI Into Your Applications
@@ -42,7 +42,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: abacusai
-  matched_by: name-slug
+  matched_by: domain
 - name: Adaptive ML
   url: http://adaptive-ml.com
   description: Adaptive ML builds key GenAI infrastructure to enable companies to perpetually improve
@@ -51,10 +51,10 @@ companies:
   status: active
   source: https://www.indexventures.com/companies/adaptive-ml/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   stub_created: true
   slug: adaptive-ml
-  matched_by: name-slug
+  matched_by: domain
 - name: Adfin
   url: http://adfin.com
   sector: fintech
@@ -64,7 +64,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: adfin
-  matched_by: name-slug
+  matched_by: domain
 - name: Adyen
   url: http://adyen.com
   description: A global omni-channel payment company, Adyen provides a fully- outsourced payment solution
@@ -111,8 +111,8 @@ companies:
   in_network: true
   is_api_provider: false
   stub_created: true
-  slug: albert
-  matched_by: name-slug
+  slug: albertinvent
+  matched_by: domain
 - name: Allara
   url: http://allarahealth.com
   description: Allara is a specialty care platform built for the tens of millions of women living with
@@ -123,8 +123,8 @@ companies:
   in_network: true
   is_api_provider: false
   stub_created: true
-  slug: allara
-  matched_by: name-slug
+  slug: allara-health
+  matched_by: domain
 - name: Ando
   url: http://ando.so
   description: Ando is a team messaging platform for the new generation. Work moves faster when humans
@@ -133,10 +133,10 @@ companies:
   status: active
   source: https://www.indexventures.com/companies/ando/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   stub_created: true
   slug: ando
-  matched_by: name-slug
+  matched_by: domain
 - name: Anine Bing
   url: http://aninebing.com
   description: Classic, yet edgy pieces for the modern woman.
@@ -147,7 +147,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: anine-bing
-  matched_by: name-slug
+  matched_by: domain
 - name: ankar.ai
   url: http://ankar.ai
   sector: ai-ml
@@ -157,7 +157,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: ankarai
-  matched_by: name-slug
+  matched_by: domain
 - name: Ankorstore
   url: https://www.ankorstore.com
   description: Ankorstore is a curated marketplace connecting up-and-coming specialist brands with the
@@ -166,10 +166,10 @@ companies:
   status: active
   source: https://www.indexventures.com/companies/ankorstore/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   stub_created: true
   slug: ankorstore
-  matched_by: name-slug
+  matched_by: domain
 - name: Anrok
   url: https://www.anrok.com/
   sector: unknown
@@ -210,8 +210,8 @@ companies:
   in_network: true
   is_api_provider: false
   stub_created: true
-  slug: applyboard-inc
-  matched_by: name-slug
+  slug: applyboard
+  matched_by: domain
 - name: Apron
   url: https://getapron.com/
   description: Apron enables business owners and accountants to sort, pay and reconcile invoices in seconds
@@ -225,7 +225,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: apron
-  matched_by: name-slug
+  matched_by: domain
 - name: Arca
   url: http://arcawealth.com
   description: Arca is an AI-native wealth management company that is redefining how financial advice
@@ -248,7 +248,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: argent
-  matched_by: name-slug
+  matched_by: domain
 - name: Arondite
   url: http://arondite.com
   description: AI to power the autonomous age
@@ -259,7 +259,7 @@ companies:
   is_api_provider: false
   stub_created: true
   slug: arondite
-  matched_by: name-slug
+  matched_by: domain
 - name: ArthurAI
   url: http://arthur.ai
   description: Maximize performance, minimize risk.
@@ -267,10 +267,10 @@ companies:
   status: active
   source: https://www.indexventures.com/companies/arthurai/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   stub_created: true
-  slug: arthurai
-  matched_by: name-slug
+  slug: arthur-ai
+  matched_by: domain
 - name: Ascend
   url: https://useascend.com/
   description: The modern insurance payments platform
@@ -278,10 +278,10 @@ companies:
   status: active
   source: https://www.indexventures.com/companies/ascend/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   stub_created: true
   slug: ascend
-  matched_by: name-slug
+  matched_by: domain
 - name: Astelia
   url: http://astelia.io
   description: Astelia is the only platform that reveals true vulnerability exposure through reachability
@@ -293,7 +293,7 @@ companies:
   is_api_provider: false
   stub_created: false
   slug: astelia
-  matched_by: name-slug
+  matched_by: domain
 - name: Atlantic Money
   url: https://atlantic.money/
   description: With a flat £3 fee, zero FX markup, and an app designed just for you, moving money across
@@ -305,7 +305,7 @@ companies:
   is_api_provider: false
   stub_created: false
   slug: atlantic-money
-  matched_by: name-slug
+  matched_by: domain
 - name: Atlar
   url: https://www.atlar.com/
   description: Atlar is the AI-native treasury platform for modern finance teams. It unifies payments,
@@ -318,7 +318,7 @@ companies:
   is_api_provider: false
   stub_created: false
   slug: atlar
-  matched_by: name-slug
+  matched_by: domain
 - name: AttackIQ
   url: http://attackiq.com
   description: AttackIQ offers the first live remote testing platform that continuously challenges your
@@ -330,7 +330,7 @@ companies:
   is_api_provider: false
   stub_created: false
   slug: attackiq
-  matched_by: name-slug
+  matched_by: domain
 - name: Augment
   url: https://www.augmentcode.com/
   description: The AI-powered coding assistant.
@@ -363,34 +363,37 @@ companies:
   is_api_provider: false
   stub_created: false
   slug: auxmoney
-  matched_by: name-slug
+  matched_by: domain
 - name: Backbone
   url: https://playbackbone.com/
   description: Next-level play, now in your hands.
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/backbone/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: backbone
+  slug: backbone
+  matched_by: name-slug
 - name: BallerTV
   url: http://baller.tv
   description: Featuring live streams, replays, and highlights of top amateur sporting events.
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/ballertv/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ballertv
+  slug: ballertv
+  matched_by: domain
 - name: Beam
   url: https://beamimpact.com/
   description: Make part of your spending go to nonprofits you choose, at no extra cost to you.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/beam/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beam
+  slug: beam
+  matched_by: name-slug
 - name: Beamery
   url: http://www.beamery.com
   description: Beamery is a provider of recruiting software that transforms the way companies hire the
@@ -398,18 +401,20 @@ companies:
   sector: talent
   status: active
   source: https://www.indexventures.com/companies/beamery/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beamery
+  slug: beamery
+  matched_by: domain
 - name: Beauty Pie
   url: http://www.beautypie.com
   description: Beauty Pie is the first luxury beauty product buyers’ club.
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/beauty-pie/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beauty-pie
+  slug: beautypie
+  matched_by: domain
 - name: Because
   url: http://becausemarket.com
   description: Because is a social, community centric, personal care brand for older adults. We empower
@@ -418,18 +423,20 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/because/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: because
+  slug: because
+  matched_by: domain
 - name: Behavox
   url: http://behavox.com
   description: Behavox is an AI-driven platform that transforms behavior in the financial workplace.
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/behavox/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: behavox
+  slug: behavox
+  matched_by: domain
 - name: Big Health
   url: http://bighealth.com
   description: Big Health uses tracked data to create highly personalized behavioural medicine programmes,
@@ -439,9 +446,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/big-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: big-health
+  slug: big-health
+  matched_by: domain
 - name: Bigger Games
   url: https://biggergames.com
   description: Bigger Games is an Istanbul-based mobile gaming company founded by three former team members
@@ -449,9 +457,10 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/bigger-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bigger-games
+  slug: bigger-games
+  matched_by: domain
 - name: Bird
   url: http://bird.co
   description: Bird is a last-mile electric vehicle sharing company dedicated to bringing safe, low-cost,
@@ -470,18 +479,20 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/birdie/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: birdie
+  slug: birdie
+  matched_by: domain
 - name: BIT ODD
   url: http://www.bit-odd.com
   description: Building games filled with wonder, weirdness and delight
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/bit-odd/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bit-odd
+  slug: bit-odd
+  matched_by: domain
 - name: BitPay
   url: http://bitpay.com
   description: The leading payment service provider (PSP) specializing in the peer-to-peer virtual currency
@@ -513,9 +524,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/bloom-wild/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bloom-and-wild
+  slug: bloom-and-wild
+  matched_by: domain
 - name: Boulevard
   url: http://joinblvd.com
   description: The business management platform powering the next generation of premium salons and spas.
@@ -532,18 +544,20 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/brightgo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brightgo
+  slug: brightgo
+  matched_by: domain
 - name: BrightHire
   url: https://brighthire.ai/
   description: The future of hiring is rigorous, fast and fair.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/brighthire/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brighthire
+  slug: brighthire
+  matched_by: domain
 - name: BRINC
   url: http://brincdrones.com
   description: BRINC builds technology in the service of public safety. Their systems give first responders
@@ -551,9 +565,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/brinc/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brinc
+  slug: brinc
+  matched_by: domain
 - name: Build
   url: http://build.inc
   description: Build is an AI-native infrastructure company helping governments, developers and institutional
@@ -561,9 +576,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/build/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: build
+  slug: build
+  matched_by: domain
 - name: Built
   url: http://getbuilt.com
   description: Built is the leading provider of secure, cloud-based construction lending software. Built's
@@ -573,18 +589,20 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/built/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: built
+  slug: built
+  matched_by: domain
 - name: Capitolis
   url: http://capitolis.com
   description: Capitolis is a pioneering technology provider for the global capital markets.
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/capitolis/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: capitolis
+  slug: capitolis
+  matched_by: domain
 - name: cargo.one
   url: http://www.cargo.one
   description: The easiest way to book air cargo. The cargo.one booking platform gives you access to real-time
@@ -612,27 +630,30 @@ companies:
   sector: security
   status: active
   source: https://www.indexventures.com/companies/castle/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: castle
+  slug: castle
+  matched_by: domain
 - name: Catch
   url: http://getcatch.com
   description: Earn store credit by helping merchants save on credit card fees.
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/catch/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: catch
+  slug: catch
+  matched_by: domain
 - name: Causaly
   url: https://www.causaly.com/
   description: An operating system for biomedical and health data
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/causaly/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: causaly
+  slug: causaly
+  matched_by: domain
 - name: Chai Discovery
   url: http://chaidiscovery.com
   description: Building frontier artificial intelligence to predict and reprogram the interactions between
@@ -640,9 +661,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/chai-discovery/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chai-discovery
+  slug: chai-discovery
+  matched_by: domain
 - name: Check
   url: http://checkhq.com
   description: Embed payroll in your platform.
@@ -661,9 +683,10 @@ companies:
   sector: data
   status: active
   source: https://www.indexventures.com/companies/ciphercloud/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ciphercloud
+  slug: ciphercloud
+  matched_by: domain
 - name: Citymapper
   url: http://citymapper.com
   description: Citymapper is reinventing the transport app by helping users navigate the world's most
@@ -683,9 +706,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/class-companion/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: class-companion
+  slug: class-companion
+  matched_by: domain
 - name: ClickHouse
   url: https://clickhouse.tech/
   description: ClickHouse® is a fast open-source OLAP database management system
@@ -702,9 +726,10 @@ companies:
   sector: data
   status: active
   source: https://www.indexventures.com/companies/clumio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clumio
+  slug: clumio
+  matched_by: domain
 - name: Coalition
   url: http://www.coalitioninc.com
   description: Cybersecurity and insurance to keep your business safe.
@@ -733,9 +758,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/cocoon/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cocoon
+  slug: cocoon
+  matched_by: name-slug
 - name: Codat
   url: http://www.codat.io
   description: Codat is the platform for business data. Through our single API, we provide real-time connectivity
@@ -765,9 +791,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/codesignal-inc/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: codesignal-inc
+  in_network: true
+  is_api_provider: true
+  slug: codesignal
+  matched_by: domain
 - name: Cohere
   url: https://cohere.com/
   description: Build incredible products with world-class language AI
@@ -818,9 +845,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/conduct/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: conduct
+  slug: conduct
+  matched_by: domain
 - name: Confluent
   url: http://confluent.io
   description: A Streaming Platform powered by Apache Kafka
@@ -837,9 +865,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/cord/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cord
+  slug: cord
+  matched_by: name-slug
 - name: Covariant.ai
   url: http://covariant.ai
   description: AI Robotics for the Real World
@@ -856,9 +885,10 @@ companies:
   sector: mobility
   status: active
   source: https://www.indexventures.com/companies/cowboy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cowboy
+  slug: cowboy
+  matched_by: domain
 - name: Cowboy Space
   url: https://www.cowboyspace.com/
   description: Cowboy Space Corporation (formerly Aetherflux) is building vertically integrated orbital
@@ -866,9 +896,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/aetherflux/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cowboy-space
+  slug: cowboy-space-corporation
+  matched_by: domain
 - name: Cradle
   url: http://cradle.bio
   description: 🧬 + 🧠 = 🏭
@@ -885,9 +916,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/creative-juice/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: creative-juice
+  slug: creative-juice
+  matched_by: domain
 - name: Credit Benchmark
   url: http://creditbenchmark.com
   description: Credit Benchmark, an innovative provider of credit risk data and analytics, pools credit
@@ -896,27 +928,30 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/credit-benchmark/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: credit-benchmark
+  in_network: true
+  is_api_provider: true
+  slug: creditbenchmark
+  matched_by: domain
 - name: Crosby
   url: http://crosby.ai
   description: The agentic law firm built for execution, providing lawyer-assisted AI to close deals faster.
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/crosby/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crosby
+  slug: crosby
+  matched_by: domain
 - name: Crossing Minds
   url: http://crossingminds.com
   description: The e-commerce recommendation engine that’s as unique as your business and customers
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/crossing-minds/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crossing-minds
+  slug: crossing-minds
+  matched_by: domain
 - name: Culture Amp
   url: http://cultureamp.com
   description: Culture Amp is a culture-first software company that is building the world's leading People
@@ -934,9 +969,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/curtsy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curtsy
+  slug: curtsy
+  matched_by: domain
 - name: Cutover
   url: http://cutover.com
   description: Cutover is a cloud-enabled work orchestration and observability platform that helps enterprises
@@ -945,9 +981,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/cutover/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cutover
+  slug: cutover
+  matched_by: domain
 - name: Datadog
   url: http://datadoghq.com
   description: Datadog is a SaaS-based monitoring and data analytics platform for IT, Operations and Development
@@ -967,18 +1004,20 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/datasnipper/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datasnipper
+  slug: datasnipper
+  matched_by: domain
 - name: Daydream
   url: https://daydream.ing
   description: A new era of shopping
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/daydream/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daydream
+  slug: daydream
+  matched_by: name-slug
 - name: Decagon
   url: http://decagon.ai
   description: The conversational AI platform to build, optimize, and scale AI agents.
@@ -1039,46 +1078,50 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/discord/
-  slug: discord
+  slug: aiva
   in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  is_api_provider: false
+  matched_by: domain
 - name: Dot Product
   url: https://dotproduct.xyz/
   description: Dot Product is building AI coworkers for operations teams.
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/dot-product/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dot-product
+  slug: dot-product
+  matched_by: domain
 - name: Double
   url: http://withdouble.com
   description: Work better with your executive assistant.
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/double/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: double
+  slug: double
+  matched_by: domain
 - name: DraftWise
   url: https://www.draftwise.com/
   description: DraftWise is on a mission to transform the legal industry by harnessing the power of AI.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/draftwise/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: draftwise
+  slug: draftwise
+  matched_by: domain
 - name: Dream Games
   url: http://dreamgames.com
   description: Dream Games is a mobile casual puzzle studio based in Istanbul.
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/dream-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dream-games
+  slug: dreamgames
+  matched_by: domain
 - name: Duffel
   url: http://duffel.com
   description: Duffel is rethinking travel from the ground up. Its platform allows online and mobile travel
@@ -1096,9 +1139,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/duna/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: duna
+  slug: duna
+  matched_by: domain
 - name: duvo.ai
   url: http://duvo.ai
   description: Duvo is the AI that maps your real operations, optimizes them, and runs the better version
@@ -1106,9 +1150,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/duvoai/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: duvoai
+  in_network: true
+  is_api_provider: true
+  slug: duvo-ai
+  matched_by: domain
 - name: Eisen
   url: https://www.witheisen.com/
   description: Eisen is the first escheatment operations solution that proactively manages offboarding
@@ -1116,18 +1161,20 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/eisen/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eisen
+  slug: eisen
+  matched_by: domain
 - name: Elementl
   url: http://elementl.com
   description: The data orchestrator for machine learning, analytics, and ETL.
   sector: open-source
   status: active
   source: https://www.indexventures.com/companies/elementl/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elementl
+  slug: elementl
+  matched_by: name-slug
 - name: Empathy
   url: https://www.empathy.com/
   description: Empathy is an innovative technology company transforming the way the world deals with grief
@@ -1135,9 +1182,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/empathy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: empathy
+  slug: empathy
+  matched_by: domain
 - name: EthonAI
   url: https://ethon.ai/
   description: EthonAI builds causal AI to help manufacturers to gain unprecedented insights into their
@@ -1145,18 +1193,20 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/ethonai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ethonai
+  slug: ethonai
+  matched_by: name-slug
 - name: evervault
   url: http://evervault.com
   description: API for data privacy.
   sector: data
   status: active
   source: https://www.indexventures.com/companies/evervault/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: evervault
+  in_network: true
+  is_api_provider: true
+  slug: evervault
+  matched_by: domain
 - name: Expel
   url: http://expel.io
   description: Transparent managed security
@@ -1174,9 +1224,10 @@ companies:
   sector: data
   status: active
   source: https://www.indexventures.com/companies/factual/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: factual
+  slug: factual
+  matched_by: name-slug
 - name: Feathery
   url: https://www.feathery.io/
   description: Feathery is a powerful, developer-friendly form builder for product teams.
@@ -1223,9 +1274,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/flagship/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flagship
+  slug: flagship
+  matched_by: domain
 - name: Flapping Airplanes
   url: https://flappingairplanes.com/
   description: Flapping Airplanes is a foundational AI research lab devoted to solving the data-efficiency
@@ -1233,9 +1285,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/flapping-airplanes/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flapping-airplanes
+  slug: flapping-airplanes
+  matched_by: domain
 - name: flatfair
   url: http://flatfair.co.uk
   description: The home of deposit-free renting. Tenants pay a small one-off fee and landlords get up
@@ -1243,9 +1296,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/flatfair/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flatfair
+  slug: flatfair
+  matched_by: domain
 - name: Flipboard
   url: http://flipboard.com
   description: A personalised magazine, Flipboard’s mission is to transform the way people discover, view
@@ -1264,9 +1318,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/fomo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fomo
+  slug: fomo
+  matched_by: domain
 - name: Fonoa
   url: https://www.fonoa.com/
   description: Automating taxes for the internet economy
@@ -1296,9 +1351,10 @@ companies:
   sector: security
   status: active
   source: https://www.indexventures.com/companies/frame-security/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: frame-security
+  slug: frame-security
+  matched_by: domain
 - name: Funding Circle
   url: http://fundingcircle.com
   description: Funding Circle is a P2P lending network for small businesses. Freeing up critical liquidity
@@ -1307,27 +1363,29 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.indexventures.com/companies/funding-circle/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: funding-circle
+  in_network: true
+  is_api_provider: true
+  slug: funding-circle
+  matched_by: domain
 - name: Garner Health
   url: http://garnerhealth.com
   sector: data
   status: active
   source: https://www.indexventures.com/companies/garner-health/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: garner-health
-  matched_by: name-slug
+  matched_by: domain
 - name: Gather
   url: https://gather.town/
   description: A better way to meet online
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/gather/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gather
+  in_network: true
+  is_api_provider: true
+  slug: gather
+  matched_by: domain
 - name: Gatsby
   url: http://gatsbyjs.com
   description: The modern way to build the web
@@ -1346,18 +1404,20 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/getharley/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getharley
+  slug: getharley
+  matched_by: domain
 - name: Glossier
   url: http://glossier.com
   description: Beauty products for real life.
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/glossier/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glossier
+  slug: glossier
+  matched_by: domain
 - name: GOAT
   url: http://goat.com
   description: GOAT is a premium marketplace for buying and selling authentic sneakers. Founded in 2015
@@ -1366,9 +1426,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/goat/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goat
+  slug: goat
+  matched_by: domain
 - name: Gong
   url: http://gong.io
   description: 'The #1 Platform for Remote Sales Teams'
@@ -1386,27 +1447,30 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/good-eggs/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: good-eggs
+  slug: good-eggs
+  matched_by: domain
 - name: Goody
   url: https://www.ongoody.com/
   description: Send a gift as easily as a text.
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/goody/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: goody
+  in_network: true
+  is_api_provider: true
+  slug: goody
+  matched_by: domain
 - name: Grailed
   url: http://grailed.com
   description: For Enthusiasts, By Enthusiasts
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/grailed/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grailed
+  slug: grailed
+  matched_by: domain
 - name: Granola
   url: http://www.granola.ai
   description: The AI notepad for people in back-to-back meetings
@@ -1423,9 +1487,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/greg/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greg
+  slug: greg
+  matched_by: domain
 - name: Gremlin
   url: http://gremlin.com
   description: Break things on purpose.
@@ -1446,7 +1511,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: harmonic
-  matched_by: name-slug
+  matched_by: domain
 - name: Hebbia
   url: https://hebbia.ai/
   description: Hebbia is the AI platform for knowledge work used by leading finance, law, and Fortune
@@ -1465,9 +1530,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/hoop/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hoop
+  slug: hoop
+  matched_by: domain
 - name: Humanloop
   url: https://humanloop.com
   description: Humanloop uses cutting-edge research in machine learning and natural language processing
@@ -1486,9 +1552,10 @@ companies:
   sector: talent
   status: ipo
   source: https://www.indexventures.com/companies/humu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humu
+  slug: humu
+  matched_by: domain
 - name: Hutch Games
   url: http://hutchgames.com
   description: 'Hutch is a collective of passionate designers, engineers and artists who all share the
@@ -1496,9 +1563,10 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/hutch-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hutch-games
+  slug: hutch-games
+  matched_by: name-slug
 - name: Hyperline
   url: http://hyperline.co
   description: 'Hyperline introduces a radically simple pricing and billing solution that solves two of
@@ -1533,18 +1601,19 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/immersive-gamebox/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: immersive-gamebox
+  slug: immersive-gamebox
+  matched_by: domain
 - name: incident.io
   url: http://incident.io
   description: The best way for your whole organisation to respond, review and learn from incidents.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/incident/
-  slug: incident-io
+  slug: brisk-teaching
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Ineffable
   url: http://ineffable.ai
@@ -1554,27 +1623,30 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/ineffable/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ineffable
+  slug: ineffable
+  matched_by: domain
 - name: Inherent
   url: http://www.inherentlaboratories.com
   description: The recursive company
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/inherent/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inherent
+  slug: inherent
+  matched_by: name-slug
 - name: Instabase
   url: http://instabase.com
   description: Why does the world need another computer?
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/instabase/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: instabase
+  in_network: true
+  is_api_provider: true
+  slug: instabase
+  matched_by: domain
 - name: Intercom
   url: http://intercom.com
   description: Intercom is a fundamentally new way for internet businesses to communicate with customers,
@@ -1602,27 +1674,30 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/josh-wood-colour/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: josh-wood-colour
+  slug: josh-wood-colour
+  matched_by: domain
 - name: Jumbo
   url: http://www.jumboprivacy.com
   description: Jumbo is a leading privacy and security assistant that protects you from online risks.
   sector: security
   status: ipo
   source: https://www.indexventures.com/companies/jumbo-privacy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jumbo
+  slug: jumboprivacy
+  matched_by: domain
 - name: Jump
   url: http://join-jump.com
   description: A better life for the self-employed
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/jump/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jump
+  slug: jump
+  matched_by: name-slug
 - name: JustPark
   url: http://justpark.com
   description: JustPark is The Parking App leading a £50bn industry into the digital age. Parking has
@@ -1654,18 +1729,20 @@ companies:
   sector: data
   status: active
   source: https://www.indexventures.com/companies/kayrros/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kayrros
+  slug: kayrros
+  matched_by: domain
 - name: Kindred
   url: https://livekindred.com/
   description: A members-only home exchange community.
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/kindred/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kindred
+  slug: kindred
+  matched_by: domain
 - name: Kong
   url: http://konghq.com
   description: Quickly build API-centric applications. Leverage the latest microservice and container
@@ -1685,9 +1762,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/kry-livi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kry-livi
+  slug: kry
+  matched_by: domain
 - name: Lever
   url: http://lever.co
   description: Lever is a modern web-app that enables you to hire the best people more easily by introducing
@@ -1705,9 +1783,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/gridai/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightning-ai
+  slug: lightning-ai
+  matched_by: domain
 - name: Linear
   url: http://linear.app
   description: The issue tracking tool you'll enjoy using.
@@ -1727,18 +1806,20 @@ companies:
   sector: media
   status: active
   source: https://www.indexventures.com/companies/linktree/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linktree
+  slug: linktree
+  matched_by: domain
 - name: Linx Security
   url: http://www.linx.security
   description: Linx is the modern Identity Security solution for modern enterprises
   sector: security
   status: active
   source: https://www.indexventures.com/companies/linx-security/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linx-security
+  slug: linx
+  matched_by: domain
 - name: Lithic
   url: https://lithic.com/
   description: Create configurable cards and approve transactions in real-time as easily as any other
@@ -1767,9 +1848,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/loctax/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loctax
+  slug: loctax
+  matched_by: name-slug
 - name: Lookout
   url: http://lookout.com
   description: As smart-phones go global and tablets overtake PCs, Lookout harnesses the power of millions
@@ -1778,9 +1860,10 @@ companies:
   sector: security
   status: active
   source: https://www.indexventures.com/companies/lookout/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lookout
+  slug: lookout
+  matched_by: domain
 - name: Loop
   url: https://loop.com/
   description: Loop is a modern audit & pay platform that unlocks friction trapped in the supply chain.
@@ -1791,9 +1874,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/loop/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: loop
+  in_network: true
+  is_api_provider: true
+  slug: loop
+  matched_by: domain
 - name: Marker
   url: http://marker.page
   description: Marker is a writing tool for people who believe in writing. It's a reimagined word processor,
@@ -1801,9 +1885,10 @@ companies:
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/marker/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marker
+  slug: marker
+  matched_by: domain
 - name: Matera
   url: http://matera.eu
   description: Matera enables residential property owners to self-manage all building operations, offering
@@ -1812,9 +1897,10 @@ companies:
   sector: business-applications
   status: ipo
   source: https://www.indexventures.com/companies/matera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matera
+  slug: matera
+  matched_by: domain
 - name: Mercantile
   url: https://www.getmercantile.com/
   description: Branded business credit cards that help your SMB customers succeed. Partner with Mercantile
@@ -1823,9 +1909,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/mercantile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mercantile
+  slug: mercantile
+  matched_by: domain
 - name: Metromile
   url: http://metromile.com
   description: Using mobile, cloud and data technology, MetroMile’s mission is to change the car insurance
@@ -1844,7 +1931,7 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/captions/
-  slug: captions-ai
+  slug: mirage
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -1857,9 +1944,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/mirelo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mirelo
+  slug: mirelo
+  matched_by: domain
 - name: Mistral
   url: https://mistral.ai/
   description: Assembling a world-class team to develop the best generative AI models.
@@ -1887,9 +1975,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/monograph/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monograph
+  slug: monograph
+  matched_by: name-slug
 - name: Montonio
   url: http://www.montonio.com
   description: Montonio is an all-in-one platform for online merchants to accept payments, offer financing
@@ -1897,9 +1986,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/montonio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: montonio
+  slug: montonio
+  matched_by: domain
 - name: MOO
   url: http://moo.com
   description: Born out of a passion for print, MOO is a printing business for the digital age, which
@@ -1908,9 +1998,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/moo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moo
+  slug: moo
+  matched_by: domain
 - name: Motive
   url: https://gomotive.com/
   description: 'Modern Fleet Management Software: Live GPS Tracking, Smart Dashcams, Fuel, Maintenance,
@@ -1928,9 +2019,10 @@ companies:
   sector: mobility
   status: active
   source: https://www.indexventures.com/companies/motorway/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motorway
+  slug: motorway
+  matched_by: domain
 - name: Multiverse
   url: https://www.multiverse.io
   description: Multiverse is a tech company that identifies, closes and prevents skills gaps, through
@@ -1942,7 +2034,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: multiverse
-  matched_by: name-slug
+  matched_by: domain
 - name: MyHeritage
   url: http://myheritage.com
   description: MyHeritage is an online service with a mission to make it easier for people around the
@@ -1951,9 +2043,10 @@ companies:
   sector: media
   status: active
   source: https://www.indexventures.com/companies/myheritage/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myheritage
+  slug: myheritage
+  matched_by: domain
 - name: Nacelle
   url: http://nacelle.com
   description: The Headless Commerce Platform that boosts conversions. Your webstore with sub-second page
@@ -1970,9 +2063,10 @@ companies:
   sector: security
   status: active
   source: https://www.indexventures.com/companies/natoma/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: natoma
+  slug: natoma
+  matched_by: name-slug
 - name: navabi
   url: https://www.navabi.ca/
   description: navabi’s mission is to become the premier destination for plus-size designer fashion worldwide,
@@ -1981,9 +2075,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/navabi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: navabi
+  slug: navabi
+  matched_by: domain
 - name: NewCore
   url: http://newcore.io
   description: The identity platform purpose-built to secure humans and AI agents — not retrofitted to
@@ -1991,18 +2086,20 @@ companies:
   sector: security
   status: active
   source: https://www.indexventures.com/companies/newcore/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newcore
+  slug: newcore
+  matched_by: name-slug
 - name: Newfront
   url: http://newfrontinsurance.com
   description: We built a better brokerage.
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/newfront-insurance/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newfront
+  slug: newfront
+  matched_by: name-slug
 - name: nexos.ai
   url: http://nexos.ai
   description: nexos.ai is a cutting-edge AI infrastructure company providing a centralized platform for
@@ -2010,18 +2107,20 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/nexosai/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nexosai
+  in_network: true
+  is_api_provider: true
+  slug: nexosai
+  matched_by: domain
 - name: Nexthink
   url: http://nexthink.com
   description: Nexthink is the global leader in digital experience management.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/nexthink/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nexthink
+  in_network: true
+  is_api_provider: true
+  slug: nexthink
+  matched_by: domain
 - name: NOTHS
   url: http://notonthehighstreet.com
   description: Notonthehighstreet.com is the leading curated online marketplace connecting the best small
@@ -2029,9 +2128,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/noths/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noths
+  slug: noths
+  matched_by: domain
 - name: Notion
   url: http://notion.so
   description: The all-in-one workspace for your notes, tasks, wikis, and databases.
@@ -2048,18 +2148,20 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/nourish/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nourish
+  slug: nourish
+  matched_by: domain
 - name: Nova Credit
   url: http://novacredit.com
   description: Your gateway to international credit bureaus.
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/nova-credit/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nova-credit
+  slug: nova-credit
+  matched_by: domain
 - name: Novus
   url: http://novus.com
   description: Novus is a portfolio analytics company founded by a group of investors, engineers and data
@@ -2068,18 +2170,20 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/novus/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novus
+  slug: novus
+  matched_by: domain
 - name: Okendo
   url: https://www.okendo.io/
   description: The New Standard in Customer Reviews.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/okendo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: okendo
+  slug: okendo
+  matched_by: domain
 - name: OpenX
   url: http://openx.com
   description: A global leader in digital and mobile ad tech, OpenX enables digital media companies to
@@ -2098,9 +2202,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/oratomic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oratomic
+  slug: oratomic
+  matched_by: domain
 - name: Otrium
   url: http://www.otrium.com
   description: Otrium’s mission is to build the world’s leading online outlet, connecting previous collections
@@ -2108,9 +2213,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/otrium/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: otrium
+  slug: otrium
+  matched_by: domain
 - name: Otterize
   url: https://otterize.com/
   description: Otterize provides an open source intent-based access control (IBAC) solution for DevOps
@@ -2118,9 +2224,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/otterize/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: otterize
+  slug: otterize
+  matched_by: domain
 - name: Outbrain
   url: http://outbrain.com
   description: Outbrain is the Internet’s leading personalised content discovery platform. By recommending
@@ -2141,9 +2248,10 @@ companies:
   sector: retail
   status: ipo
   source: https://www.indexventures.com/companies/ozonru/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ozonru
+  slug: ozonru
+  matched_by: domain
 - name: Parallel
   url: http://beparallel.com
   description: Parallel is a software solution that builds AI agents to automate administrative tasks
@@ -2153,7 +2261,7 @@ companies:
   status: active
   source: https://www.indexventures.com/companies/parallel/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: parallel
   matched_by: name-slug
 - name: Parallel Web Systems
@@ -2162,9 +2270,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/parallel-web-systems/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: parallel-web-systems
+  in_network: true
+  is_api_provider: true
+  slug: parallel
+  matched_by: domain
 - name: Patreon
   url: http://patreon.com
   description: Harkening back to old-school patronage, Patreon enables fans and sponsors to support artists
@@ -2183,9 +2292,10 @@ companies:
   sector: talent
   status: active
   source: https://www.indexventures.com/companies/pave/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pave
+  slug: pave
+  matched_by: domain
 - name: Peanut
   url: http://peanut-app.io
   description: Peanut is the first social network for women to build strong ties from the moment they
@@ -2193,18 +2303,20 @@ companies:
   sector: media
   status: active
   source: https://www.indexventures.com/companies/peanut/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peanut
+  slug: peanut-app
+  matched_by: domain
 - name: Pepper
   url: http://www.usepepper.com
   description: The eCommerce Platform for Food Distributors
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/pepper/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pepper
+  slug: pepper
+  matched_by: domain
 - name: Persona
   url: https://withpersona.com/
   description: Automate your identity verification process throughout the customer lifecycle — from collecting
@@ -2234,9 +2346,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/phaidra/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: phaidra
+  slug: phaidra
+  matched_by: domain
 - name: Physical Intelligence
   url: https://www.pi.website/
   description: Physical Intelligence is bringing general-purpose AI into the physical world.
@@ -2255,9 +2368,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/pilot/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pilot
+  slug: pilot
+  matched_by: domain
 - name: Pitch
   url: http://pitch.com
   description: Pitch, a software technology company started in January 2018 in Berlin, is building a new
@@ -2265,17 +2379,19 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/pitch/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pitch
+  slug: pitch
+  matched_by: domain
 - name: Piñata Farms
   url: https://www.pinatafarm.com/
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/pinata-farms/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pi-ata-farms
+  slug: pi-ata-farms
+  matched_by: domain
 - name: Plaid
   url: http://plaid.com
   description: The easiest way for users to connect their bank accounts to an app.
@@ -2292,9 +2408,9 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/plaincom/
-  slug: plain-support
+  slug: plain
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: PointFive
   url: https://www.pointfive.co/
@@ -2302,9 +2418,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/pointfive/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pointfive
+  slug: pointfive
+  matched_by: domain
 - name: Pomelo
   url: http://pomelo.la
   sector: fintech
@@ -2332,9 +2449,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/prodigy-finance/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prodigy-finance
+  slug: prodigyfinance
+  matched_by: domain
 - name: Productboard
   url: http://productboard.com
   description: Make products that matter, together.
@@ -2352,9 +2470,10 @@ companies:
   sector: unknown
   status: ipo
   source: https://www.indexventures.com/companies/qapa/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qapa
+  slug: qapa
+  matched_by: domain
 - name: Quantive
   url: https://quantive.com/
   description: Quantive enables your enterprise to orchestrate strategy and deliver business results with
@@ -2362,27 +2481,30 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/gtmhub/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quantive
+  slug: quantive
+  matched_by: domain
 - name: Quill
   url: http://quill.chat
   description: Messaging for people & teams that focus.
   sector: business-applications
   status: ipo
   source: https://www.indexventures.com/companies/quill/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quill
+  slug: quill
+  matched_by: domain
 - name: Quilter
   url: http://quilter.ai
   description: The first physics-driven AI to fully automate complete PCB layout.
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/quilter/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quilter
+  slug: quilter
+  matched_by: domain
 - name: Raisin
   url: http://raisin.com
   description: The first online marketplace for European deposits, Raisin offers customers better deposit
@@ -2391,18 +2513,20 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/raisin/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raisin
+  slug: raisin
+  matched_by: domain
 - name: ReadySet
   url: http://readyset.io
   description: Same database, (much) faster queries
   sector: data
   status: active
   source: https://www.indexventures.com/companies/readyset/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: readyset
+  slug: readyset
+  matched_by: domain
 - name: Rebtel
   url: http://rebtel.com
   description: As one of the most successful international calling companies in the world, Rebtel has
@@ -2411,18 +2535,20 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/rebtel/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rebtel
+  slug: rebtel
+  matched_by: domain
 - name: Rec Room
   url: http://rec.net
   description: Rec Room is a virtual social club where you create and play games with friends.
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/rec-room/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rec-room
+  slug: rec-room
+  matched_by: domain
 - name: Remote
   url: http://remote.com
   description: Remote helps amazing companies hire the best talent all over the world. They take care
@@ -2430,7 +2556,7 @@ companies:
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/remotecom/
-  slug: remote-com
+  slug: remote
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -2441,9 +2567,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/resistant-ai/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: resistant-ai
+  in_network: true
+  is_api_provider: true
+  slug: resistant-ai
+  matched_by: domain
 - name: Revel
   url: http://revel.io
   description: Revel is a unified software platform for hardware test and control.
@@ -2471,9 +2598,9 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/revolut/
-  slug: neobanks
+  slug: revolut
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Robinhood
   url: http://robinhood.com
@@ -2482,9 +2609,9 @@ companies:
   status: ipo
   source: https://www.indexventures.com/companies/robinhood/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: robinhood
-  matched_by: name-slug
+  matched_by: domain
 - name: Roblox
   url: http://roblox.com
   description: Roblox is the largest social platform for play that allows kids to imagine, create, and
@@ -2503,9 +2630,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/rohlikcz/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rohlik
+  slug: rohlik
+  matched_by: domain
 - name: Roli
   url: http://roli.com
   description: A design-led technology start-up, ROLI make hardware and software products and services
@@ -2513,9 +2641,10 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/roli/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roli
+  slug: roli
+  matched_by: domain
 - name: Ryft
   url: http://ryft.io
   description: Ryft is the only automated Iceberg management solution that maintains and optimizes your
@@ -2523,9 +2652,10 @@ companies:
   sector: data
   status: active
   source: https://www.indexventures.com/companies/ryft/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ryft
+  in_network: true
+  is_api_provider: true
+  slug: ryft
+  matched_by: domain
 - name: SafetyCulture
   url: http://safetyculture.com
   description: SafetyCulture provides mobile-first technology that puts safety and quality applications
@@ -2534,27 +2664,30 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/safetyculture/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: safetyculture
+  slug: safetyculture
+  matched_by: domain
 - name: Sanlo
   url: https://sanlo.io
   description: The financial hub for gaming and apps.
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/sanlo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sanlo
+  slug: sanlo
+  matched_by: domain
 - name: Savvy
   url: https://www.savvywealth.com/
   description: Modern Wealth Management for Modern Professionals
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/savvy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: savvy
+  slug: savvy
+  matched_by: domain
 - name: Scale
   url: http://scale.com
   description: Democratize access to intelligent data.
@@ -2572,9 +2705,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/science-exchange/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: science-exchange
+  slug: scienceexchange
+  matched_by: domain
 - name: Scoop
   url: http://scoopforwork.com
   description: Scoop is the fastest way to plan your next great office day. With Scoop, employees get
@@ -2584,17 +2718,19 @@ companies:
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/scoop/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scoop
+  slug: scoop
+  matched_by: domain
 - name: Scope
   url: https://www.getscope.ai/
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/scope/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scope
+  slug: scope
+  matched_by: domain
 - name: Second Home
   url: http://secondhome.io
   description: Second Home is a creative workspace and cultural venue, bringing together diverse industries,
@@ -2602,9 +2738,10 @@ companies:
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/second-home/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: second-home
+  slug: second-home
+  matched_by: domain
 - name: Secret Escapes
   url: http://secretescapes.com
   description: The worst-kept secret in luxury travel, Secret Escapes is a free-to-join members-only flash
@@ -2613,9 +2750,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/secret-escapes/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: secret-escapes
+  slug: secret-escapes
+  matched_by: domain
 - name: Seedcamp
   url: http://seedcamp.com
   description: Seedcamp is the world’s best connected international seed investment network and Europe’s
@@ -2623,9 +2761,10 @@ companies:
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/seedcamp/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seedcamp
+  slug: seedcamp
+  matched_by: domain
 - name: SeedLegals
   url: http://seedlegals.com
   description: SeedLegals helps startups manage the entire fundraising process and all related legal documents.
@@ -2634,9 +2773,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/seedlegals/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seedlegals
+  slug: seedlegals
+  matched_by: domain
 - name: ServiceTitan
   url: http://servicetitan.com
   description: 'The #1 Software for Home Services.'
@@ -2654,9 +2794,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/seso/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seso
+  slug: seso
+  matched_by: domain
 - name: Shapeways
   url: http://shapeways.com
   description: Shapeways has built the world’s leading 3D printing marketplace and community, enabling
@@ -2665,9 +2806,10 @@ companies:
   sector: retail
   status: active
   source: https://www.indexventures.com/companies/shapeways/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shapeways
+  in_network: true
+  is_api_provider: true
+  slug: shapeways
+  matched_by: domain
 - name: Shopmonkey
   url: http://shopmonkey.io
   description: The smart & simple way to run your auto shop. Say goodbye to complex software and the chaos
@@ -2686,9 +2828,10 @@ companies:
   sector: security
   status: ipo
   source: https://www.indexventures.com/companies/signal-sciences/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: signal-sciences
+  slug: signal-sciences
+  matched_by: domain
 - name: Silverfin
   url: http://silverfin.com
   description: Silverfin is a real-time connected accounting platform that unifies businesses’ financial
@@ -2696,27 +2839,30 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/silverfin/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silverfin
+  slug: silverfin
+  matched_by: domain
 - name: Simile
   url: http://simile.ai
   description: A platform for simulating the future with generative agents.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/simile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simile
+  slug: simile
+  matched_by: domain
 - name: Siro
   url: https://siro.ai/
   description: Siro is building an AI coach for Field Sales.
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/siro/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: siro
+  in_network: true
+  is_api_provider: true
+  slug: siro
+  matched_by: domain
 - name: Sofía
   url: http://sofiasalud.com
   description: Sofía is a Mexican healthtech company that aims to change how people approach healthcare
@@ -2724,9 +2870,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/sofia/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sof-a
+  slug: sof-a
+  matched_by: domain
 - name: Solvo
   url: http://solvo.finance
   description: Solvo provides access to quality crypto investments in a new, seamless and transparent
@@ -2734,9 +2881,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/solvo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solvo
+  slug: solvo
+  matched_by: domain
 - name: Sourceful
   url: https://www.sourceful.com
   description: The all-in-one platform for sustainable sourcing
@@ -2766,9 +2914,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/spiko/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: spiko
+  in_network: true
+  is_api_provider: true
+  slug: spiko
+  matched_by: domain
 - name: Squarespace
   url: http://squarespace.com
   description: Squarespace empowers individuals and companies to design, build and maintain bespoke websites
@@ -2800,9 +2949,10 @@ companies:
   sector: open-source
   status: active
   source: https://www.indexventures.com/companies/starburst/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starburst
+  slug: starburst
+  matched_by: name-slug
 - name: Strapi
   url: http://strapi.io
   description: Strapi is the leading open-source headless CMS.
@@ -2829,18 +2979,20 @@ companies:
   sector: security
   status: active
   source: https://www.indexventures.com/companies/sublime-security/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sublime-security
+  in_network: true
+  is_api_provider: true
+  slug: sublime-security
+  matched_by: domain
 - name: Subset
   url: http://www.subset.so
   description: Subset is a collaborative spreadsheet on an endless canvas.
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/subset/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: subset
+  slug: subset
+  matched_by: domain
 - name: Super Evil Megacorp
   url: http://superevilmegacorp.com
   description: Super Evil Megacorp seeks to destroy the productivity of mankind with endlessly entertaining
@@ -2849,18 +3001,20 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/super-evil-megacorp/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: super-evil-megacorp
+  slug: super-evil-megacorp
+  matched_by: domain
 - name: Superconductive
   url: https://www.superconductive.com/
   description: Always know what to expect from your data.
   sector: data
   status: active
   source: https://www.indexventures.com/companies/super-conductive/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superconductive
+  slug: superconductive
+  matched_by: name-slug
 - name: Superlinked
   url: https://superlinked.com/
   description: Superlinked is a compute and data engineering framework for turning data into vector embeddings.
@@ -2878,18 +3032,20 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/supersolid/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supersolid
+  slug: supersolid
+  matched_by: domain
 - name: Swile
   url: https://www.swile.co
   description: The must-have app for life at work
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/swile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swile
+  slug: swile
+  matched_by: domain
 - name: Sylvera
   url: http://sylvera.com
   description: Sylvera is the world’s first carbon offset ratings provider that leverages geospatial data,
@@ -2907,9 +3063,10 @@ companies:
   sector: entertainment
   status: active
   source: https://www.indexventures.com/companies/tactile-games/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tactile-games
+  slug: tactile-games
+  matched_by: domain
 - name: Tacto
   url: http://tacto.ai/en
   description: Tacto is an AI-based supply-chain operating system tailored specifically to the needs of
@@ -2917,18 +3074,20 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/tacto/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tacto
+  slug: tacto
+  matched_by: domain
 - name: Taktile
   url: https://www.taktile.com/
   description: Machine learning for the financial services industry.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/taktile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taktile
+  slug: taktile
+  matched_by: domain
 - name: Taxfix
   url: http://taxfix.de
   description: The digital tax app that reduces the painful and time consuming process of filing a tax
@@ -2936,9 +3095,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/taxfix/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taxfix
+  slug: taxfix
+  matched_by: domain
 - name: Tebi
   url: http://tebi.co
   description: Tebi is a connected restaurant management system that makes restaurants, cafés, and bars
@@ -2948,9 +3108,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/tebi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tebi
+  slug: tebi
+  matched_by: domain
 - name: Tekion
   url: http://tekion.com
   description: The first and fastest cloud-native automotive retail platform.
@@ -2967,9 +3128,10 @@ companies:
   sector: fintech
   status: active
   source: https://www.indexventures.com/companies/tema/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tema
+  slug: tema
+  matched_by: domain
 - name: Temporal
   url: http://temporal.io
   description: Build Invincible Apps
@@ -2987,9 +3149,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/tesslio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tesslio
+  slug: tessl
+  matched_by: domain
 - name: Thatch
   url: https://thatch.ai/
   description: Thatch is an all-in-one platform that makes it easy to offer your employees the most personalized
@@ -2997,9 +3160,10 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/thatch/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: thatch
+  in_network: true
+  is_api_provider: true
+  slug: thatch
+  matched_by: name-slug
 - name: The Business of Fashion
   url: http://businessoffashion.com
   description: Fashion’s answer to The Economist, The Business of Fashion is a one-stop resource and insiders’
@@ -3007,27 +3171,30 @@ companies:
   sector: media
   status: active
   source: https://www.indexventures.com/companies/the-business-of-fashion/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-business-of-fashion
+  slug: the-business-of-fashion
+  matched_by: domain
 - name: Thread AI
   url: http://threadai.com
   description: Building the next phase of critical AI infrastructure.
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/thread-ai-2/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thread-ai
+  slug: thread-ai
+  matched_by: domain
 - name: Tiney
   url: http://tiney.co
   description: Find amazing childcare near you
   sector: future-of-work
   status: active
   source: https://www.indexventures.com/companies/tiney/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tiney
+  slug: tiney
+  matched_by: domain
 - name: Tofu
   url: http://tofuhq.com
   description: Tofu scales B2B marketing campaigns with AI by personalizing omni-channel content across
@@ -3035,9 +3202,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/tofu/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tofu
+  slug: tofu
+  matched_by: domain
 - name: Transcend
   url: http://transcend.io
   description: Transcend is the data privacy infrastructure that makes it simple to give your users control
@@ -3087,18 +3255,20 @@ companies:
   sector: entertainment
   status: ipo
   source: https://www.indexventures.com/companies/ubiquity6/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ubiquity6
+  slug: ubiquity6
+  matched_by: domain
 - name: Upollo
   url: https://upollo.ai/
   description: Find and convert repeat trialers, account sharers & more
   sector: unknown
   status: active
   source: https://www.indexventures.com/companies/upollo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upollo
+  slug: upollo
+  matched_by: domain
 - name: Valdera
   url: https://www.valdera.com/
   description: Valdera is the modern sourcing platform that makes it easy to buy and sell high-quality
@@ -3106,36 +3276,40 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/valdera/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: valdera
+  slug: valdera
+  matched_by: domain
 - name: Venice
   url: https://www.venice.io/
   description: The adaptive privileged access management (PAM) platform for the AI era.
   sector: security
   status: active
   source: https://www.indexventures.com/companies/venice/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: venice
+  slug: venice
+  matched_by: domain
 - name: Vetted
   url: https://vetted.ai/
   description: The Internet's Favorite Products
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/lustre/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vetted
+  slug: vetted
+  matched_by: domain
 - name: Vinyl Equity
   url: http://vinylequity.com
   description: The transfer agent for modern public companies.
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/vinyl-equity/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vinyl-equity
+  slug: vinyl-equity
+  matched_by: domain
 - name: Vizcom
   url: https://www.vizcom.ai/
   description: Deploying AI to transform the future of industrial product visualization and design at
@@ -3143,17 +3317,19 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/vizcom/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vizcom
+  slug: vizcom
+  matched_by: name-slug
 - name: Vooma
   url: http://vooma.ai
   sector: data
   status: active
   source: https://www.indexventures.com/companies/vooma/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vooma
+  in_network: true
+  is_api_provider: true
+  slug: vooma
+  matched_by: domain
 - name: Vouch
   url: http://vouch.us
   description: Vouch Insurance is a new kind of insurance company for startups. Built by founders for
@@ -3194,9 +3370,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/wetravel/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wetravel
+  in_network: true
+  is_api_provider: true
+  slug: wetravel
+  matched_by: domain
 - name: Wise
   url: http://wise.com
   description: Wise was launched in 2011 with the vision of making international money transfers cheap,
@@ -3226,9 +3403,10 @@ companies:
   sector: ai-ml
   status: active
   source: https://www.indexventures.com/companies/wonderful/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonderful
+  slug: wonderful
+  matched_by: domain
 - name: Wordsmith AI
   url: https://www.wordsmith.ai/
   description: A secure AI workplace built for in-house lawyers.
@@ -3245,9 +3423,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/workbounce/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workbounce
+  slug: workbounce
+  matched_by: domain
 - name: Worldover
   url: https://www.worldover.io/
   description: The all-in-one compliance automation platform for cosmetics brands, manufacturers, suppliers
@@ -3255,9 +3434,10 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/worldover/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: worldover
+  slug: worldover
+  matched_by: domain
 - name: Xata
   url: https://www.xata.io/
   description: Next-generation database for serverless and low-code apps
