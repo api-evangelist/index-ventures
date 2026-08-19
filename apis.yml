@@ -24,7 +24,7 @@ accessModel:
 image: https://logo.clearbit.com/indexventures.com
 created: '2026-07-17'
 modified: '2026-07-17'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 x-type: venture-capital
 x-category: Venture Capital
 tags:
