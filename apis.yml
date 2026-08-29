@@ -10,6 +10,17 @@ description: 'Index Ventures is a global venture capital firm founded in Geneva 
   include Adyen, Figma, Datadog, Discord, Revolut, Wise, Robinhood, Roblox, Confluent, Anthropic, Scale
   AI and Wiz. Its philosophy emphasizes backing founders on character and vision — ''we invest in who
   you are, not just what you do.'''
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
