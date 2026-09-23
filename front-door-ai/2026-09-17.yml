@@ -1,0 +1,32 @@
+# Front Door AI Index — index-ventures — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: index-ventures
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.indexventures.com
+  final_host: www.indexventures.com
+  ownership: own
+  owner: index-ventures
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 8.4
+  words: 1429
+  tiers:
+    agentic: 4
+    core: 5
+    model: 3
+  ambiguous: 5
+  top_terms:
+    AI: 5
+    intelligence: 4
+    Mistral: 2
+    agentic: 2
+    Anthropic: 1
+    agent: 1
+    inference: 1
+    prompts: 1
