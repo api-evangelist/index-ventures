@@ -865,10 +865,9 @@ companies:
   sector: business-applications
   status: active
   source: https://www.indexventures.com/companies/cord/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cord
-  matched_by: name-slug
+  suggested_slug: ''  # was mislinked by name to cord; the company is cord.com
 - name: Covariant.ai
   url: http://covariant.ai
   description: AI Robotics for the Real World
@@ -2260,10 +2259,9 @@ companies:
   sector: healthcare
   status: active
   source: https://www.indexventures.com/companies/parallel/
-  in_network: true
-  is_api_provider: true
-  slug: parallel
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: ''  # was mislinked by name to parallel (Parallel Web Systems, parallel.ai); the company is beparallel.com, hospital administrative AI agents (roadmap#845)
 - name: Parallel Web Systems
   url: https://parallel.ai/
   description: Web Search Infrastructure for AIs
@@ -2272,7 +2270,7 @@ companies:
   source: https://www.indexventures.com/companies/parallel-web-systems/
   in_network: true
   is_api_provider: true
-  slug: parallel
+  slug: parallel-ai
   matched_by: domain
 - name: Patreon
   url: http://patreon.com
